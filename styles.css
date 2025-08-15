@@ -21,6 +21,11 @@ body{
 .search{
     width:100%;
 }
+.mdi {
+    font-size: 24px;
+    color: #4a5568;
+}
+
 .search input{
     border-radius:12px;
     width:75%;
@@ -71,8 +76,9 @@ input:focus {
     padding-top:25px;
 }
 .sidebar li{
+    font-size: 1.3rem;;
     list-style: none;
-    margin:10px;
+    margin:20px;
     padding-left:15px;
 }
 .sidebar li a{
@@ -80,7 +86,16 @@ input:focus {
     color:white;
     
 }
-
+ .sidebar li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.dashboard{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
 /* Main Card Styles here  */
 .main{
     height:100%;
@@ -187,6 +202,10 @@ input:focus {
 /* div{
     border: 2px solid red;
 }
-.projects{
+/* .projects{
     border:2px solid yellow
-} */
+} */ 
+
+
+
+

@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
@@ -12,11 +14,11 @@
 <body>
     <div class="header">
         <div class="header-top">
-            <div> logo </div>
+            <i class="mdi mdi-magnify"></i>
             <div class="search">
                 <input type="Search" placeholder="Search...">
             </div>
-            <div> item 1</div>
+            <i class="mdi mdi-bell"></i>
             <div> item 2</div>
             <div> item 3</div>
 
@@ -33,26 +35,34 @@
         </div>
     </div>
     <div class="sidebar">
-        <div class="dashboard">DashBoard</div>
+        <div class="dashboard">
+            <img src="icons/view-dashboard.svg" alt="Dashboard icon" width="50" height="50">
+            Dashboard
+        </div>
+
         <div class="sidebar-main">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Messages</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Task</a></li>
-                <li><a href="#">Communities</a></li>
-            </ul>
-        </div>
-        <div class="sidebar-other">
-            <ul>
-                <li><a href="#">Settings</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Privacy</a></li>
+                <li><img src="icons/home.svg" alt="Home icon" width="24" height="24"><a href="#">Home</a></li>
+                <li><img src="icons/id-card.svg" alt="Profile icon" width="24" height="24"><a href="#">Profile</a></li>
+                <li><img src="icons/message.svg" alt="Messages icon" width="24" height="24"><a href="#">Messages</a>
+                </li>
+                <li><img src="icons/history.svg" alt="History icon" width="24" height="24"><a href="#">History</a></li>
+                <li><img src="icons/list-box.svg" alt="Tasks icon" width="24" height="24"><a href="#">Task</a></li>
+                <li><img src="icons/account-group.svg" alt="Communities icon" width="24" height="24"><a
+                        href="#">Communities</a></li>
             </ul>
         </div>
 
+        <div class="sidebar-other">
+            <ul>
+                <li><img src="icons/settings.svg" alt="Settings icon" width="24" height="24"><a href="#">Settings</a>
+                </li>
+                <li><img src="icons/support.svg" alt="Support icon" width="24" height="24"><a href="#">Support</a></li>
+                <li><img src="icons/privacy.svg" alt="Privacy icon" width="24" height="24"><a href="#">Privacy</a></li>
+            </ul>
+        </div>
     </div>
+
     <div class="main">
         <div class="projects">
             <p class="main-heading">Your Projects</p>
