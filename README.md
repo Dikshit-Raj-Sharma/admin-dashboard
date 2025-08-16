@@ -29,13 +29,15 @@ It focuses on practicing **CSS Grid** and **Flexbox** layout techniques without 
 ---
 
 ## 📂 Project Structure
-
+```
 admin-dashboard/
 │── index.html       # Main HTML file
 │── style.css        # Stylesheet
 │── script.css       # Not Used in this Project
 │── icons/           # Icons
 │── README.md        # Project documentation
+```
+---
 
 ## 📌 How to Use
 
