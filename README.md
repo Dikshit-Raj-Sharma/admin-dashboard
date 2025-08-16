@@ -1,16 +1,51 @@
-# Admin Dashboard
+# Admin Dashboard Project
 
-A responsive and minimal admin dashboard built using HTML, CSS, and JavaScript.  
-The layout includes a sidebar, top navigation bar, and a main content area where dynamic cards, project lists, and future charts will be added.
+This project is a simple **Admin Dashboard** built using **HTML** and **CSS** only.  
+It focuses on practicing **CSS Grid** and **Flexbox** layout techniques without using JavaScript.
 
-## Features (Planned)
+---
 
-- Sidebar navigation
-- Top header with user info
-- Dashboard cards for stats
-- Project/task listing section
-- Basic interactivity with JavaScript
-- Responsive layout for desktop and mobile
+## 🚀 Features
 
-> 🛠️ **Work in Progress:**  
-This project is currently under active development. Features and structure are subject to change as the build progresses.
+- **Sidebar Navigation**:  
+  A clean and responsive sidebar with icons and links.
+
+- **Header Section**:  
+  Includes a search bar, notification icons, and user profile display.
+
+- **Main Content Area**:  
+  Displays project cards, announcements, and trending sections using **CSS Grid**.
+
+- **Responsive Layout**:  
+  Layout adjusts for different screen sizes, using a combination of Grid and Flexbox.
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**  
+- **CSS3** (Grid + Flexbox)
+
+---
+
+## 📂 Project Structure
+
+admin-dashboard/
+│── index.html       # Main HTML file
+│── style.css        # Stylesheet
+│── script.css       # Not Used in this Project
+│── icons/           # Icons
+│── README.md        # Project documentation
+
+## 📌 How to Use
+
+1. Clone or download this repository.  
+2. Open `index.html` in your browser.  
+3. Explore the dashboard layout.  
+
+---
+
+## ✅ Status
+
+✔️ Completed (No JavaScript used)  
+This is purely a **static frontend layout project**.
